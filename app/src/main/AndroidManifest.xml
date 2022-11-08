@@ -30,6 +30,8 @@
             android:exported="true" />
         <activity android:name=".ChooseQuizActivity"
             android:exported="true"/>
+        <activity android:name=".Quiz"
+            android:exported="true"/>
     </application>
 
 </manifest>
