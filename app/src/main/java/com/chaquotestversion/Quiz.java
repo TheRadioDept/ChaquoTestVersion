@@ -49,7 +49,7 @@ public class Quiz extends AppCompatActivity {
 
 
     public void openResultPage(){
-        Intent result_page = new Intent(this, ResultActivity.class);
+        Intent result_page = new Intent(this, CorrectResultActivity.class);
         startActivity(result_page);
     }
 
