@@ -7,6 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.chaquotestversion.ui.login.LoginActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     Button history_button;
@@ -38,11 +40,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openQuizPage(){
-        Intent goToQuiz = new Intent(this, MainPage.class);
+        Intent goToQuiz = new Intent(this, ChooseQuizActivity.class);
         startActivity(goToQuiz);
     }
 
     public void openLoginActivity(){
+        Intent logout = new Intent(this, LoginActivity.class);
+        startActivity(logout);
     }
 
 }
