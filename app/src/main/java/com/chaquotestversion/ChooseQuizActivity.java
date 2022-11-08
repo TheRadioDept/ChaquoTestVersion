@@ -25,7 +25,7 @@ public class ChooseQuizActivity extends AppCompatActivity {
     }
 
     public void openNewActivity() {
-        Intent intent = new Intent(this, MainPage.class);
+        Intent intent = new Intent(this, Quiz.class);
         startActivity(intent);
     }
 }
