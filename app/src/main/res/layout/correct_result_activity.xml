@@ -50,6 +50,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:srcCompat="@drawable/gilbert_stuart_williamstown_portrait_of_george_washington" />
+        app:srcCompat="@drawable/george_washington" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
