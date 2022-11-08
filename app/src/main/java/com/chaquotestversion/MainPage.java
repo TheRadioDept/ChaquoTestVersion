@@ -19,7 +19,7 @@ public class MainPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_page);
 
         textView = (TextView) findViewById(R.id.text_view_python);
         test_button = (Button) findViewById(R.id.test_button);
